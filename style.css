@@ -1,0 +1,698 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    padding: 0px;
+    margin: 0 auto;
+    max-width: 1366px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.content {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.slider {
+    height: 800px;
+    background-image: url(img/slider-img.jpg);
+    overflow: auto;
+    position: relative;
+}
+
+.header {
+    padding-top: 63px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+}
+
+.menu-link {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: right;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 13px;
+}
+
+.menu-link:hover {
+    color: #212121;
+    font-style: normal;
+    border-bottom: 3px solid #212121;
+}
+
+.menu-svg {
+    padding: 10px 13px;
+}
+
+svg {
+    fill: #8c8c8c
+}
+
+svg:hover {
+    fill: #212121;
+}
+
+.slider-text {
+    margin-top: 283px;
+}
+
+.slider-trend {
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.slider-h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: normal;
+}
+
+.slider-content {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    width: 458px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.button {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 3.6px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    width: 212px;
+    height: 45px;
+    line-height: 45px;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #f5f5f5;
+}
+
+.pagination {
+    position: absolute;
+    width: 1170px;
+    bottom: 19px;
+    text-align: center;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: #c7c7c7;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.circle-actv {
+    width: 40px;
+    height: 40px;
+    background-color: #212121;
+    margin-bottom: 0px;
+}
+
+.circle:hover {
+    background-color: #212121;
+}
+
+.container-products {
+    margin-left: 107px;
+    margin-top: 122px;
+}
+
+.products-line {
+    margin-bottom: 50px;
+}
+
+.products-line a {
+    text-decoration: none;
+}
+
+.link-1 {
+    /* Style for "Featured" */
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+.link-1:hover {
+    color: #212121;
+    border-bottom: 3px solid #212121;
+}
+
+.link-1:active {
+    bottom: 5px;
+    border-bottom: 3px solid #212121;
+}
+
+.link-2 {
+    /*New*/
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    margin-left: 31px;
+}
+
+.link-2:hover {
+    color: #212121;
+    border-bottom: 3px solid #212121;
+}
+
+.link-2:active {
+    border-bottom: 3px solid #212121;
+}
+
+.link-3 {
+    /*explore al*/
+    margin-left: 614px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    /* Text style for "explore al" */
+    float: right;
+    margin-right: 80px;
+}
+
+.link-3:hover {
+    color: #212121;
+    border-bottom: 3px solid #212121;
+}
+
+.link-3:hover {
+    color: #212121;
+    border-bottom: 3px solid #212121;
+}
+
+.product-1,
+.product-2,
+.product-3,
+.product-4 {
+    margin-left: 30px;
+}
+
+.container-exclusive-1 {
+    display: flex;
+    margin-top: 120px;
+}
+
+.promo-1 {
+    background-image: url(img/promo-product-1.jpg);
+    background-repeat: no-repeat;
+    width: 683px;
+    height: 683px;
+}
+
+.promo-2 {
+    background-image: url(img/promo-product-2.jpg);
+    background-repeat: no-repeat;
+    width: 683px;
+    height: 683px;
+}
+
+.promo-exc {
+    color: #1e88e5;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1.8px;
+    line-height: 48px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.promo-h2 {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+.promo-content {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24.04px;
+    text-align: left;
+}
+
+.promo-cont {
+    margin-top: 283px;
+    margin-left: 52px;
+    text-align: left;
+}
+
+.col-md-3 a {
+    display: inline-flex;
+}
+
+.product-trend-1,
+.product-trend-2,
+.product-trend-3 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.product-trend-2,
+.product-trend-3 {
+    margin-left: 30px;
+    `
+}
+
+.product-trend-3 {
+    margin-right: 80px;
+}
+
+.slider2 {
+    height: 800px;
+    background-image: url(img/slider.jpg);
+    overflow: auto;
+    position: relative;
+}
+
+.container-exclusive-2 {
+    float: left;
+    padding-top: 120px;
+}
+
+.promo-3 {
+    background-image: url(img/product-1-lg.jpg);
+    width: 570px;
+    height: 574px;
+    float: left;
+    margin-right: 30px;
+}
+
+.promo-4 {
+    float: left;
+    margin-bottom: 120px;
+}
+
+.product-trend-left {
+    float: left;
+    padding-right: 30px;
+}
+
+.product-trend-right {
+    float: left;
+}
+
+.col-md-4-down {
+    padding-top: 30px;
+}
+
+.slider3 {
+    background-image: url(img/back-img.jpg);
+    overflow: auto;
+    position: relative;
+}
+
+.slider3-text {
+    margin-top: 168px;
+    margin-bottom: 40px;
+}
+
+.slider3-trend {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1.8px;
+    line-height: 48px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.footer {
+    /*footer-bac*/
+    position: relative;
+    overflow: auto;
+    background-color: #f7f7f7;
+}
+
+.contacts-menu {
+    list-style-type: none;
+    padding-top: 120px;
+}
+
+.contacts-cont ul li:nth-child(n+2) {
+    margin-left: 90px;
+}
+
+.contacts-menu-list {
+    float: left;
+    position: relative;
+}
+
+form {
+    margin-top: 26px;
+}
+
+.contacts-menu-list-left {
+    /*Sales term*/
+    float: left;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.7px;
+    line-height: 26px;
+    text-align: left;
+    text-transform: uppercase;
+    padding-right: 20px;
+}
+
+.contacts-menu-list-right {
+    float: left;
+    padding-left: 40px;
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.7px;
+    line-height: 26px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+..contacts-cont ul li:nth-child(3) {
+    float: left;
+}
+
+*/ .cont-text-h2 {
+    /*Contact Us*/
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1.8px;
+    line-height: 24px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.cont-text-p {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+    text-align: left;
+}
+
+.input {
+    /*input*/
+    width: 370px;
+    height: 48px;
+    border: 1px solid #d9dee1;
+    outline: none;
+    padding: 0px;
+    margin: 0px;
+    background: url(img/sss.png);
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: 330px;
+    padding-left: 19px;
+    /*your email*/
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+    text-align: left;
+}
+
+.footer-text {
+    display: inline-flex;
+    width: 1250px;
+    overflow: auto;
+    margin-top: 60px;
+}
+
+.copy-text {
+    /*Copyrigh*/
+    display: inline-flex;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.6px;
+    line-height: 26px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.social-links {
+    display: inline-flex;
+    margin-left: 150px;
+}
+
+.cookies-text {
+    /*Terms & Co*/
+    display: inline-flex;
+    float: right;
+    margin-left: 150px;
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.6px;
+    line-height: 26px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+
+/*----------------interior-product-details----------------*/
+
+.product-details {
+    /*back*/
+    margin-top: 35px;
+    background-color: #f4f4f4;
+}
+
+.menu-product-details {
+    list-style-type: none;
+    text-align: center;
+}
+
+.menu-list-product-details {
+    margin: 35px 0px 35px 15px;
+    display: inline-block;
+}
+
+.link-product-details {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1.8px;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.link-product-details:hover {
+    color: #212121;
+}
+
+.product-details-chair {
+    margin-top: 72px;
+}
+
+
+
+.chair-1 {
+    background-image: url(img/slider1.jpg);
+    background-repeat: no-repeat;
+    width: 570px;
+    height: 570px;
+}
+
+.chair-2 {
+    background-image: url(img/controll.jpg);
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    display: inline-flex;
+    margin: 10px 10px 0 137px;
+}
+
+.chair-3 {
+    background-image: url(img/controll11.png);
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    display: inline-flex;
+}
+
+.chair-4 {
+    background-image: url(img/controll2.png);
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    display: inline-flex;
+}
+
+.chair-details {
+    margin-top: 72px;
+    text-align: center;
+    float: right;
+}
+
+.chair-slider {
+    /*Fishnet Ch*/
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+.chair-slider-h2 {
+    /*Hot Deal*/
+    color: #e53935;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1.8px;
+    line-height: 48.02px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.chair-slider-price {
+    /*$ 36.7/sq*/
+    color: #212121;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48.02px;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+.chair-slider-content {
+    /*The majest*/
+    width: 499px;
+    height: 244px;
+    color: #212121;
+    /*font-family: Gotham;*/
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.4px;
+    line-height: 24.01px;
+    text-align: left;
+}
+
+.button-chair-slider {
+    /*Order Us*/
+    width: 510px;
+    height: 71px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 4.4px;
+    text-align: center;
+    /*хз почему не центрирует*/
+    border-radius: 35px;
+    border-left: 40px;
+    background-color: #f44336;
+}
+
+.button-chair-slider:hover {
+    background-color: #c11b2d;
+}
